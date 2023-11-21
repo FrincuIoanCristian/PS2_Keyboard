@@ -1,0 +1,18 @@
+NET "clk" LOC=B8;
+NET "ps2_clk" LOC =R12;
+NTE "ps2_clk" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "ps2_data" LOC=P11;
+
+NET "reset" LOC=B18;
+NET "catozi(6)" LOC=L18;
+NET "catozi(5)" LOC=F18;
+NET "catozi(4)" LOC=D17;
+NET "catozi(3)" LOC=D16;
+NET "catozi(2)" LOC=G14;
+NET "catozi(1)" LOC=J17;
+NET "catozi(0)" LOC=H14;
+NET "anozi(0)" LOC=F17;
+NET "anozi(1)" LOC=H17;
+NET "anozi(2)" LOC=C18;
+NET "anozi(3)" LOC=F15;
+
